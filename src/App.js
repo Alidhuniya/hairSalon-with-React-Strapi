@@ -15,7 +15,7 @@ class App extends Component {
                 <img src={logo}  />
             </div>
                 <div>
-                    <h1>Heading Header</h1>
+                    <h1>Heading 1</h1>
                 </div>
 
                 <div>
