@@ -38,6 +38,18 @@ module.exports = {
               'sass-loader',
             ],
       },
+
+      {
+        test: /\.(svg|png|jpe?g|gif)$/i,
+        use: {
+        loader: "file-loader",
+        options: {
+          name: "[name].[hash].[ext]",
+          outputPath: "imgs"
+        }
+      }
+
+    },
     
 
     ]

@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from "react";
 import Apptwo from './Apptwo';
 import "./App.scss";
+import logo from "./assets/logo.svg";
 
 class App extends Component {
 
@@ -10,6 +11,9 @@ class App extends Component {
 
             <Fragment>
             <header className = "header">
+            <div>
+                <img src={logo}  />
+            </div>
                 <div>
                     <h1>Heading Header</h1>
                 </div>
