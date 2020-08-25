@@ -1,0 +1,7 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Notes: 
+# if your dist folder is not hiding from gitignore then clean it then do it link: https://stackoverflow.com/questions/59561657/how-can-i-ignore-dist-folder-in-gitignore-file
+
+# dependencies
+/node_modules
