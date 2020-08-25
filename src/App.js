@@ -13,7 +13,7 @@ class App extends Component {
                 </div>
 
                 <div>
-                    <p>Description: Hello World</p>
+                    <p>Description: Hello World from webpack and babel</p>
                 </div>
 
                 <Apptwo />

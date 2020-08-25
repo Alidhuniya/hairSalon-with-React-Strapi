@@ -7,8 +7,14 @@ module.exports = {
   entry: './src/index.js',
   devtool: 'inline-source-map none',
   output: {
-    filename: 'main.bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    // filename: 'main.bundle.js',
+    // path: path.resolve(__dirname, 'dist'),
+
+    // path: path.join(__dirname, 'dist'), // this will not open index.html by default
+    path: path.resolve(__dirname, 'dist'), // this will open index.html file in dist folder by default
+    // publicPath: '/dist/',
+    filename: "[name].[contenthash].bundle.js",
+    // chunkFilename: '[name].js'
   },
   module: {
     rules: [
@@ -29,11 +35,11 @@ module.exports = {
   ],
 
   resolve: {
-    extensions: ['.json', '.js', '.jsx']
+    extensions: ['.html', '.json', '.js', '.jsx']
   },
 
   devServer: {
-    writeToDisk: true // this will show the dist folder in development
+    writeToDisk: true // this will show the dist folder in development link: https://github.com/webpack/webpack-dev-server/issues/1141
   }
 
 };
