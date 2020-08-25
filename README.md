@@ -1,0 +1,1 @@
+# hairSalon Shop with React and Strapi Headless CMS
