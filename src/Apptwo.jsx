@@ -1,7 +1,6 @@
 import React, {Component, Fragment} from "react";
-import Apptwo from './Apptwo';
 
-class App extends Component {
+class Apptwo extends Component {
 
     render() {
 
@@ -9,18 +8,16 @@ class App extends Component {
 
             <Fragment>
                 <div>
-                    <h1>Heading Header</h1>
+                    <h1>Heading Header 2</h1>
                 </div>
 
                 <div>
-                    <p>Description: Hello World</p>
+                    <p>Description: Hello World 2</p>
                 </div>
-
-                <Apptwo />
             </Fragment>
 
         );
     }
 }
 
-export default App;
+export default Apptwo;
