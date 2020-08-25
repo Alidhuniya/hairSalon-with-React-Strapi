@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from "react";
 import Apptwo from './Apptwo';
+import "./App.scss";
 
 class App extends Component {
 
@@ -8,6 +9,7 @@ class App extends Component {
         return (
 
             <Fragment>
+            <header className = "header">
                 <div>
                     <h1>Heading Header</h1>
                 </div>
@@ -17,6 +19,9 @@ class App extends Component {
                 </div>
 
                 <Apptwo />
+
+                </header>
+
             </Fragment>
 
         );
