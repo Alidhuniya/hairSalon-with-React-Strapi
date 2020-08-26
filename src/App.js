@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from "react";
 import Apptwo from './Apptwo';
 import "./App.scss";
-import logo from "./assets/logo.svg";
+import logo from "./assets/icon.png";
 
 class App extends Component {
 

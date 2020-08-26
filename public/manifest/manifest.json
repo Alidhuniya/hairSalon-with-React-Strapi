@@ -1,0 +1,26 @@
+{
+    "short_name": "React",
+    "name": "React PWA",
+    "icons": [
+      {
+        "src": "https://raw.githubusercontent.com/rexxars/react-hexagon/master/logo/react-hexagon.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/rexxars/react-hexagon/master/logo/react-hexagon.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+
+      {
+        "src": "https://raw.githubusercontent.com/rexxars/react-hexagon/master/logo/react-hexagon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "../",
+    "display": "standalone",
+    "theme_color": "#27ae60",
+    "background_color": "#fff"
+  }

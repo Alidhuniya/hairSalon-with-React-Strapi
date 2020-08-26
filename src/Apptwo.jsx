@@ -8,11 +8,11 @@ class Apptwo extends Component {
 
             <Fragment>
                 <div>
-                    <h1>Heading Header 2</h1>
+                    <h1> Header 2</h1>
                 </div>
 
                 <div>
-                    <p>Description: Hello World 2 from webpack and babel</p>
+                    <p>Description2: Hello World 2 from webpack and babel</p>
                 </div>
             </Fragment>
 
