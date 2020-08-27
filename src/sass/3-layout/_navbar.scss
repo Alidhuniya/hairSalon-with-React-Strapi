@@ -1,0 +1,51 @@
+@import "../0-abstract//variables";
+.header {
+	display: flex;
+	margin-left: 7rem;
+	margin-right: 7rem;
+	justify-content: space-between;
+}
+
+
+
+.header__navLink {
+    margin-left: 2.5rem;
+    align-items: center;
+
+   
+}
+
+.header__navBook {
+	border: 1.3px solid #5b2c62;
+	width: 140px;
+    height: 24px;
+    color: #de00ff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__navLogo {
+	width: 193px;
+	height: 40.7px;
+}
+
+.header__nav {
+	text-transform: capitalize;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+    color: $secondaryColor;
+    display: flex;
+    
+    @media #{$break2} {
+        flex-wrap: wrap;
+    }
+}
+
+
+// responsive hambergur menu
+
+

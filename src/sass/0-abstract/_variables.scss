@@ -1,2 +1,9 @@
 $primaryColor: #fff;
 $secondaryColor: #000;
+
+// media queries
+
+$break0 : "(max-width: 500px)";
+$break1: "(min-width: 501px) and (max-width: 768px)";
+$break2: "(min-width: 769px) and (max-width: 1100px)";
+$break3: "(min-width: 1101px)";
