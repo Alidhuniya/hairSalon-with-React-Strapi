@@ -45,8 +45,11 @@ export default class Navbar extends Component {
 
            { view && <img className = "header__navLogo" src={view.navbarzone[0].logo.url} alt="logo" />  }
 
+
             </div>
 
+            <input className="menu-btn" type="checkbox" id="menu-btn" />
+             <label className="menu-icon" for="menu-btn"><span className="navicon"></span></label>
             
            
 

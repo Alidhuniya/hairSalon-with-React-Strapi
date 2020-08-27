@@ -3,7 +3,12 @@
 	display: flex;
 	margin-left: 7rem;
 	margin-right: 7rem;
-	justify-content: space-between;
+    justify-content: space-between;
+    
+    @media all and (max-width: 1100px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -11,9 +16,8 @@
 .header__navLink {
     margin-left: 2.5rem;
     align-items: center;
-
-   
 }
+
 
 .header__navBook {
 	border: 1.3px solid #5b2c62;
@@ -26,12 +30,35 @@
     align-items: center;
 }
 
+@media all and (max-width: 878px) {
+    .header__navLink {
+        margin-left: 0rem; 
+         align-items: center; 
+        text-align: center;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .header__navBook {
+        width: 218px;
+        padding-top: 0rem;
+        height: 46px;
+    }
+}
+
+
 .header__navLogo {
 	width: 193px;
-	height: 40.7px;
+    height: 40.7px;
+    @media all and (max-width: 1100px) {
+        width: 0px;
+        height: 0px;
+    }
 }
 
 .header__nav {
+
+    
 	text-transform: capitalize;
 	font-style: normal;
 	font-weight: normal;
@@ -39,13 +66,103 @@
 	letter-spacing: 0.05em;
     color: $secondaryColor;
     display: flex;
+    align-items: center;
     
-    @media #{$break2} {
-        flex-wrap: wrap;
-    }
+   @media all and (max-width: 1100px) {
+       display: none;
+   }
+   @media all and (max-width: 878px) {
+   flex-direction: column;
+   align-items: center;
+   padding-top: 1.5rem;
+   
+}
 }
 
 
 // responsive hambergur menu
 
+.menu-btn:hover {
+    background-color: #f4f4f4;
+  }
 
+  .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+
+  .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 35px;
+   
+  }
+
+  .menu-icon .navicon:before,
+ .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+ .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+   .menu-icon .navicon:after {
+    top: -5px;
+  }
+
+   .menu-btn {
+    display: none;
+  }
+  
+   .menu-btn:checked ~ .header__nav {
+    max-height: 240px;
+    text-transform: capitalize;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+    color: $secondaryColor;
+    display: flex;
+    transition: max-height .2s ease-out;
+  }
+  
+   .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+   .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+   .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+   .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+
+  
+  @media all and (min-width: 1100px) {
+  
+   
+    .menu-icon {
+      display: none;
+    }
+  }
