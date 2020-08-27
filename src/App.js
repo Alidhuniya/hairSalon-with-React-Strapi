@@ -1,35 +1,58 @@
-import React, {Component, Fragment} from "react";
-import Apptwo from './Apptwo';
+import React, { Component, Fragment } from "react";
 import "./App.scss";
-import logo from "./assets/icon.png";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Error from "./components/Error";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Book from "./pages/Book";
+import { Route, Switch } from "react-router-dom";
+
+
 
 class App extends Component {
+	render() {
+		return (
+			<Fragment>
+				<Navbar />
 
-    render() {
+				<Switch>
+					<Route path="/" exact>
+						<Home />
+					</Route>
 
-        return (
+					<Route path="/about" exact>
+						<About />
+					</Route>
 
-            <Fragment>
-            <header className = "header">
-            <div>
-                <img src={logo}  />
-            </div>
-                <div>
-                    <h1>Heading 1</h1>
-                </div>
+					<Route path="/services" exact>
+						<Services />
+					</Route>
 
-                <div>
-                    <p>Description: Hello World from webpack and babel</p>
-                </div>
+					<Route path="/portfolio" exact>
+						<Portfolio />
+					</Route>
 
-                <Apptwo />
+					<Route path="/contact" exact>
+						<Contact />
+					</Route>
 
-                </header>
+					<Route path="/book" exact>
+						<Book />
+					</Route>
 
-            </Fragment>
+					<Route>
+						<Error />
+					</Route>
+				</Switch>
 
-        );
-    }
+				<Footer />
+			</Fragment>
+		);
+	}
 }
 
 export default App;
