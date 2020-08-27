@@ -1,0 +1,29 @@
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    all: unset;
+}
