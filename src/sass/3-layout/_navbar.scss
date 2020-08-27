@@ -1,8 +1,8 @@
 @import "../0-abstract//variables";
 .header {
 	display: flex;
-	margin-left: 7rem;
-	margin-right: 7rem;
+	// margin-left: 7rem;
+	// margin-right: 7rem;
     justify-content: space-between;
     
     @media all and (max-width: 1100px) {
@@ -75,6 +75,10 @@
    flex-direction: column;
    align-items: center;
    padding-top: 1.5rem;
+   background-color: aliceblue;
+   padding-bottom: 1rem;
+   margin-bottom: 1rem;
+   width: 100%s;
    
 }
 }
@@ -129,7 +133,7 @@
   }
   
    .menu-btn:checked ~ .header__nav {
-    max-height: 240px;
+    max-height: 470px;
     text-transform: capitalize;
 	font-style: normal;
 	font-weight: normal;
