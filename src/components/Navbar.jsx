@@ -4,8 +4,6 @@ import "./../sass/3-layout/_navbar.scss";
 
 import { Link } from "react-router-dom";
 
-const localhost = "https://hairsalon.herokuapp.com";
-
 export default class Navbar extends Component {
 	constructor(props) {
 		super();
