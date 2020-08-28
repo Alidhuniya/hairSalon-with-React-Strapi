@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Baseurl from "./Baseurl";
 import "./../sass/3-layout/_homesectionfive.scss";
+import Carousel from 'react-elastic-carousel';
 
 export default class Homesectiontfive extends Component {
 	constructor(props) {
@@ -34,9 +35,12 @@ export default class Homesectiontfive extends Component {
 						<p>{testimonialdesc}</p>
 					</div>
 				</section>
-
+				
 				<div>
+				<Carousel>
+				
 					{
+						
 						view && view.testimonialscomp.map((item, key) => (
 						<div>
 
@@ -46,12 +50,15 @@ export default class Homesectiontfive extends Component {
 						</div>
 
 						<p>{item.comment}</p>
-						
+
 						</div>
 					   ))
 					
 					}
+					</Carousel>
+					
 				</div>
+				
 			</Fragment>
 		);
 	}
