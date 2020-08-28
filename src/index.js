@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDom from 'react-dom';
 // import App from "./App";
 import "./sass/basic-styles-scss/abstract-and-base.scss";
-import Homesectiontwo from './components/Homesectiontwo';
+import Homesectionthree from './components/Homesectionthree';
 
 import {
   BrowserRouter as Router
 } from "react-router-dom";
  
-ReactDom.render(<Router><Homesectiontwo /></Router>, document.getElementById("root"));
+ReactDom.render(<Router><Homesectionthree /></Router>, document.getElementById("root"));
 
 // pwa
 // if ('serviceWorker' in navigator) {
