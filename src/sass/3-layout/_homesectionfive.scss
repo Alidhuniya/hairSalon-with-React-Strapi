@@ -1,5 +1,44 @@
+.testimonials {
+    background: #E8E8F0;
+    padding: 3rem;
+}
+.homesectionfive {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.homesectionfive__heading {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+.homesectionfive__desc {
+	max-width: 67ch;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 120%;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+
+.testimonials {
+    margin-top: 5rem;
+}
 .client__img {
 	width: 90px;
 	height: 90px;
 	border-radius: 62px;
+}
+
+.testimonials__comnt {
+    font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0.05em;
 }

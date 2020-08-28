@@ -33,8 +33,8 @@ export default class Homesectiontfive extends Component {
 			<Fragment>
 				<section className="homesectionfive">
 					<div>
-						<h1>{testimonialheading}</h1>
-						<p>{testimonialdesc}</p>
+						<h1 className = "homesectionfive__heading">{testimonialheading}</h1>
+						<p className = "homesectionfive__desc">{testimonialdesc}</p>
 					</div>
 				</section>
 				
@@ -51,14 +51,14 @@ export default class Homesectiontfive extends Component {
 					{
 						
 						view && view.testimonialscomp.map((item, key) => (
-						<div>
+						<div className = "testimonials">
 
 					
 						<img className = "client__img" src = {item.img.url} alt = "client" />
 						<h1 key={item.id}> {[item.name]} </h1>
 						
 
-						<p>{item.comment}</p>
+						<p className = "testimonials__comnt">{item.comment}</p>
 
 						</div>
 					   ))
