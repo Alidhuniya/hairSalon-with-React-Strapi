@@ -1,0 +1,40 @@
+.homeSection1 {
+	margin-left: 7rem;
+	margin-right: 7rem;
+	display: flex;
+	justify-content: space-between;
+
+	@media all and (max-width: 1100px) {
+		flex-wrap: wrap;
+	}
+
+	@media all and (max-width: 500px) {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+}
+
+.homeSection1__container {
+	display: flex;
+	justify-content: space-between;
+
+	@media all and (max-width: 1100px) {
+		margin-top: 2.5rem;
+	}
+}
+
+.homeSection1__contents {
+	margin-left: 2rem;
+}
+
+.homeSection1__h3 {
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.homeSection1__prg {
+	max-width: 25ch;
+}
