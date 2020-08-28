@@ -6,6 +6,12 @@ const { merge } = require("webpack-merge");
 module.exports = merge(common, {
   mode: 'development',
   devtool: 'inline-source-map none',
+  devServer: {
+    host: '192.168.1.64',//your ip address
+    port: 8080,
+    disableHostCheck: true,
+  
+},
  
   output: {
    
