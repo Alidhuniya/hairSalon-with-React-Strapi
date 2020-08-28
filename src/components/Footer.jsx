@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import Navbar from './Navbar';
 import "./../sass/3-layout/_footer.scss";
 
 
@@ -9,9 +8,7 @@ export default class Footer extends Component {
 
             <Fragment>
                <footer>
-                   <div className = "footer__nav">
-                       <Navbar />
-                   </div>
+                   
 
                    <div className = "footer__btmContents">
 

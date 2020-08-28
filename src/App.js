@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import "./App.scss";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Error from "./components/Error";
+import Error from './components/Error';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -13,11 +13,15 @@ import { Route, Switch } from "react-router-dom";
 
 
 
+
 class App extends Component {
 	render() {
 		return (
 			<Fragment>
+			<div className = "navbar">
 				<Navbar />
+
+				</div>
 
 				<Switch>
 					<Route path="/" exact>

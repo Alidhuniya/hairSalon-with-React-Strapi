@@ -1,8 +1,8 @@
 @import "../0-abstract//variables";
 .header {
 	display: flex;
-	// margin-left: 7rem;
-	// margin-right: 7rem;
+	margin-left: 7rem;
+	margin-right: 7rem;
     justify-content: space-between;
     
     @media all and (max-width: 1100px) {
