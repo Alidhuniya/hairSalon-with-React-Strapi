@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from "react";
 import Baseurl from "./Baseurl";
 import "./../sass/3-layout/_homesectionfive.scss";
-import Carousel from 'react-elastic-carousel';
+import "react-responsive-carousel/lib/styles/carousel.scss"; //link of tutorial: https://dev.to/aryaziai/modern-testimonials-in-react-tutorial-cn1
+
+import { Carousel } from 'react-responsive-carousel';
 
 export default class Homesectiontfive extends Component {
 	constructor(props) {
@@ -37,17 +39,24 @@ export default class Homesectiontfive extends Component {
 				</section>
 				
 				<div>
-				<Carousel>
+				<Carousel
+        showArrows={true}
+        infiniteLoop={true}
+        showThumbs={false}
+        showStatus={false}
+        autoPlay={true}
+        interval={6100}
+      >
 				
 					{
 						
 						view && view.testimonialscomp.map((item, key) => (
 						<div>
 
-						<div>
+					
 						<img className = "client__img" src = {item.img.url} alt = "client" />
 						<h1 key={item.id}> {[item.name]} </h1>
-						</div>
+						
 
 						<p>{item.comment}</p>
 
