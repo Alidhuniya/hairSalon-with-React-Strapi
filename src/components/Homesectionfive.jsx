@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Baseurl from "./Baseurl";
 import "./../sass/3-layout/_homesectionfive.scss";
-import "react-responsive-carousel/lib/styles/carousel.scss"; //link of tutorial: https://dev.to/aryaziai/modern-testimonials-in-react-tutorial-cn1
+// import "react-responsive-carousel/lib/styles/carousel.css"; //link of tutorial: https://dev.to/aryaziai/modern-testimonials-in-react-tutorial-cn1
 
 import { Carousel } from 'react-responsive-carousel';
 
@@ -51,14 +51,14 @@ export default class Homesectiontfive extends Component {
 					{
 						
 						view && view.testimonialscomp.map((item, key) => (
-						<div className = "testimonials">
+						<div className = "testi">
 
 					
 						<img className = "client__img" src = {item.img.url} alt = "client" />
 						<h1 key={item.id}> {[item.name]} </h1>
 						
 
-						<p className = "testimonials__comnt">{item.comment}</p>
+						<p className = "testi__comnt">{item.comment}</p>
 
 						</div>
 					   ))
