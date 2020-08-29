@@ -10,7 +10,7 @@ import {
  
 ReactDom.render(<Router><App /></Router>, document.getElementById("root"));
 
-pwa
+
 if ('serviceWorker' in navigator) {
        window.addEventListener('load', () => {
          navigator.serviceWorker.register('/service-worker.js')
