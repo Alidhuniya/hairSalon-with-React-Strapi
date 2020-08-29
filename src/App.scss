@@ -1,3 +1,16 @@
-.navbar {
-    margin-top: 2.5rem;
+@media all and (max-width: 1100px) {
+	.navbar {
+		margin-top: 2.5rem;
+	}
+}
+
+@media all and (min-width: 1100px) {
+	.navbar {
+		position: sticky;
+		top: 0;
+		background: #6C63FF;
+        padding: 1rem;
+        z-index: 999999999;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
 }
