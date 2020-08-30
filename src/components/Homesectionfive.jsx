@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Baseurl from "./Baseurl";
 import "./../sass/3-layout/_homesectionfive.scss";
+import "./../sass/3-layout/_carousel.scss";
 // import "react-responsive-carousel/lib/styles/carousel.css"; //link of tutorial: https://dev.to/aryaziai/modern-testimonials-in-react-tutorial-cn1
 
 import { Carousel } from 'react-responsive-carousel';
