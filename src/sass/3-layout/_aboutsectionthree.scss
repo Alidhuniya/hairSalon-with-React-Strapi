@@ -1,0 +1,64 @@
+
+.aboutsectionthree__container {
+	margin-top: 11.5rem;
+	display: flex;
+    justify-content: space-between;
+   
+
+    @media all and (max-width: 1270px) {
+        flex-wrap: wrap;
+    }
+
+    @media all and (max-width: 1056px) {
+        justify-content: center;
+    }
+
+    @media all and (max-width: 700px) {
+        margin-top: 5rem;
+    }
+}
+.team__img {
+	width: 310px;
+	height: 280px;
+}
+
+
+.aboutsectionthree__h1,
+.aboutsectionthree__parag {
+	text-align: center;
+}
+
+.aboutsectionthree__parag {
+    max-width: 73ch;
+    margin: 0 auto;
+}
+
+.team {
+	margin-top: 2.5rem;
+	margin-left: 7rem;
+    margin-right: 7rem;
+
+   
+    
+    @media all and (max-width: 500px) {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+.team__h1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+
+.team__title {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	margin-top: -0.7rem;
+	letter-spacing: 0.05em;
+}
