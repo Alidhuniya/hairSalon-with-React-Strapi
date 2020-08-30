@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 // import App from "./App";
-import Aboutsection from './components/Aboutsection';
+import Aboutsectionone from './components/Aboutsectionone';
 import "./sass/basic-styles-scss/abstract-and-base.scss";
 
 
@@ -9,7 +9,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
  
-ReactDom.render(<Router><Aboutsection /></Router>, document.getElementById("root"));
+ReactDom.render(<Router><Aboutsectionone /></Router>, document.getElementById("root"));
 
 
 if ('serviceWorker' in navigator) {

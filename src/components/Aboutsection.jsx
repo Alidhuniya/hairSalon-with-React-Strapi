@@ -38,7 +38,7 @@ export default class Aboutsection extends Component {
         showThumbs={false}
         showStatus={false}
         autoPlay={true}
-        interval={6100}
+        interval={3100}
       >
 				
 					{
