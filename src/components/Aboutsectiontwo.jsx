@@ -4,7 +4,7 @@ import "./../sass/3-layout/_aboutsectiontwo.scss";
 
 
 
-export default class Aboutsectionone extends Component {
+export default class Aboutsectiontwo extends Component {
 	constructor(props) {
 		super();
 		this.state = {
