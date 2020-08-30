@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import Baseurl from "./Baseurl";
 import "./../sass/3-layout/_aboutsectionone.scss";
 
-import { Carousel } from 'react-responsive-carousel';
+
 
 export default class Aboutsectionone extends Component {
 	constructor(props) {

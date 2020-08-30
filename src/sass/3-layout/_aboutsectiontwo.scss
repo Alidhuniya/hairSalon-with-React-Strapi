@@ -1,0 +1,44 @@
+.aboutsectiontwo {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem 4rem 6rem;
+    background-color:  #2A2A2A;
+
+
+}
+
+.aboutsectiontwo__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutsectiontwo__h1, .aboutsectiontwo__prg {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.aboutsectiontwo__prg {
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.aboutsection__img {
+    width: 45px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 600px) {
+    .aboutsectiontwo {
+        flex-wrap: wrap;
+        padding: 2.5rem 4rem 2.5rem 4rem;
+    }
+
+    .aboutsectiontwo__container {
+        margin-top: 2.3rem;
+    }
+    
+}
