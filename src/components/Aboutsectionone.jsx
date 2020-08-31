@@ -42,9 +42,9 @@ export default class Aboutsectionone extends Component {
                     </div>
                   </div>
 
-                  {/* <div className = "aboutsectionone__rightcontainer">
+                  <div className = "aboutsectionone__rightcontainer">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/pSLrFrv3OvU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
-                  </div> */}
+                  </div>
 
               </div>
           </div>
