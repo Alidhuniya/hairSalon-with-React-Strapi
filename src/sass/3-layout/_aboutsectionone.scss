@@ -1,31 +1,31 @@
 .aboutsectionone {
 	margin-left: 7rem;
-    margin-right: 7rem;
-    
-    @media all and (max-width: 500px) {
-        margin-left: 0.7rem;
-        margin-right: 0.7rem;
-    }
+	margin-right: 7rem;
+
+	@media all and (max-width: 500px) {
+		margin-left: 0.7rem;
+		margin-right: 0.7rem;
+	}
 }
 
 .aboutsectionone__container {
-    display: flex;
-    @media all and (max-width: 1300px) {
-        flex-direction: column;
-        align-items: center;
-    }
+	display: flex;
+	@media all and (max-width: 1300px) {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .aboutsectionone__h1 {
 	font-style: normal;
 	font-weight: 900;
 	font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 2.5rem;
+	line-height: 56px;
+	margin-bottom: 2.5rem;
 
-    @media all and (max-width: 500px) {
-    font-size: 24px;
-    }
+	@media all and (max-width: 500px) {
+		font-size: 24px;
+	}
 }
 
 .aboutsectionone__desc {
@@ -33,37 +33,61 @@
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 145.5%;
-    margin-bottom: 2rem;
-    letter-spacing: 0.05em;
-    max-width: 59ch;
+	margin-bottom: 2rem;
+	letter-spacing: 0.05em;
+	max-width: 59ch;
 
-    @media all and (max-width: 500px) {
-       font-size: 12px;
-    }
+	@media all and (max-width: 500px) {
+		font-size: 12px;
+	}
 }
 
 .social-icons {
-    display: flex;
-   .icon {
-       margin-right: 2rem;
-   }
+	display: flex;
+	.icon {
+		margin-right: 2rem;
+	}
 }
 
 .aboutsectionone__leftcontainer + .aboutsectionone__rightcontainer {
-    margin-left: 11.5rem;
+	margin-left: 11.5rem;
 }
 
-
-
-
 @media all and (max-width: 1300px) {
-    .aboutsectionone__leftcontainer + .aboutsectionone__rightcontainer {
-        margin-left: 0rem;
-    }
+	.aboutsectionone__leftcontainer + .aboutsectionone__rightcontainer {
+		margin-left: 0rem;
+	}
 
-    .aboutsectionone__rightcontainer {
-        margin-top: 3rem;
-    }
+	.aboutsectionone__rightcontainer {
+		margin-top: 3rem;
+	}
+}
 
-    
+.readmore {
+    margin-top: 2.5rem;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+    border: 1px solid #000000;
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+
+      
+}
+.readmore:hover {
+    background-color: #5B2C62;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media all and (max-width: 340px ) {
+    .readmore {
+       
+        font-size: 12px;
+        padding: 0.5rem;
+        width: none;
+    }
 }
