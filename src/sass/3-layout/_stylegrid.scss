@@ -1,0 +1,14 @@
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+.grid__img {
+	width: 372.16px;
+    height: 260px;
+    margin-top: 2.3rem;
+}
+
+.grid + .grid {
+    margin-left: 2.5rem;
+}

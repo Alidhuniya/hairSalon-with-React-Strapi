@@ -1,12 +1,22 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component, Fragment } from 'react';
+import Portfoliosection from './../components/Portfoliosection';
+import Portfoliosectionone from './../components/Portfoliosectionone';
 
 export default class Portfolio extends Component {
     render() {
         return (
            
                 <Fragment>
+                    <div>
+                        <section>
+                    <Portfoliosection />
+                        </section>
 
-                <h1>Portfolio</h1>
+                        <section>
+                            <Portfoliosectionone />
+                            </section>
+
+                    </div>
                 </Fragment>
           
         )

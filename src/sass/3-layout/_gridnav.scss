@@ -1,0 +1,20 @@
+.grid__nav {
+	display: flex;
+	justify-content: center;
+}
+
+.grid__navLink {
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+
+.grid__navLink + .grid__navLink {
+    margin-left: 7rem;
+}
