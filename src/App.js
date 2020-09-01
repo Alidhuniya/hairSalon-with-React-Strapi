@@ -8,7 +8,6 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import Book from "./pages/Book";
 import { Route, Switch } from "react-router-dom";
 
 
@@ -43,11 +42,6 @@ class App extends Component {
 					<Route path="/contact" exact>
 						<Contact />
 					</Route>
-
-					<Route path="/book" exact>
-						<Book />
-					</Route>
-
 					<Route>
 						<Error />
 					</Route>

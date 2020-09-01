@@ -71,7 +71,7 @@ export default class Navbar extends Component {
 							</Link>
 						</li>
 						<li className="header__navLink header__navBook">
-							<Link to="/book">
+							<Link>
 								{view && view.navbarzone[0].navlinks[5].linkheading}
 							</Link>
 						</li>
