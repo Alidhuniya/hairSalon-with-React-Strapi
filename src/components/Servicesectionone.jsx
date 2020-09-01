@@ -40,7 +40,10 @@ export default class Servicesectionone extends Component {
 		return (
 			<Fragment>
               <div className = "services">
+              <h1 className = "services__h1">Our Services</h1>
                     <div className = "services__container">
+
+                    {/* I can add map function to iterate this request but I forget to add image model in Strapi cms */}
 
                         <div className = "services__offer">
                            <img className = "icon-img" src = {serviceIcon1}   alt="icon-services" title = "symbol" />

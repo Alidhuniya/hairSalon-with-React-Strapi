@@ -1,0 +1,90 @@
+.pricing {
+	margin-left: 7rem;
+    margin-right: 7rem;
+   
+}
+
+.pricing__h1 {
+	text-align: center;
+	font-size: 3rem;
+}
+
+.pricing__container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__tableone + .pricing__tabletwo {
+    margin-left: 17rem;
+}
+
+.pricing__tableone, .pricing__tabletwo {
+	width: 359px;
+	height: 587px;
+    padding: 2rem 3rem 3rem 3rem;
+	background: rgba(221, 199, 199, 0.1);
+	border: 2px solid #6c63ff;
+}
+
+.pricing__tabletwo {
+    padding: 0.7rem 2rem 3rem 2rem;
+    // margin-top: 2.5rem;
+}
+
+.table1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.pricing__h3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+}
+
+.pricing__rupee {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 150%;
+
+	letter-spacing: 0.05em;
+}
+
+@media all and (max-width: 1145px) {
+    .pricing__container {
+    
+        justify-content: space-between;
+    }
+    
+    .pricing__tableone + .pricing__tabletwo {
+        margin-left: 0rem;
+    }
+}
+
+@media all and (max-width: 970px) {
+
+    .pricing__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricing__tabletwo {
+       
+        margin-top: 2.5rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .pricing {
+        margin-left: 1rem;
+        margin-right: 1rem;
+       
+    }
+    
+}

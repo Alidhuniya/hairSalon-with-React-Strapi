@@ -3,6 +3,12 @@
 	margin-right: 7rem;
 }
 
+.services__h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
 .services__container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
