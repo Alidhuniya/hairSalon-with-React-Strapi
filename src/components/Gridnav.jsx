@@ -1,8 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Baseurl from "./Baseurl";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./../sass/3-layout/_gridnav.scss";
-
 
 export default class Gridnav extends Component {
 	constructor(props) {
@@ -26,30 +25,35 @@ export default class Gridnav extends Component {
 		const view = this.state.result;
 		// console.log(this.state.result);
 
-		
-
 		return (
 			<Fragment>
-            <header className="grid">
-					
-
+				<header className="grid">
 					<nav className=" grid__nav">
-						<li className="grid__navLink">
-							<Link to="/portfolio/">
+						<li className="grid__navLink ">
+							<NavLink
+								exact
+								to="/portfolio/"
+								activeStyle={{ background: "#6C63FF", padding: "0.7rem" }}
+							>
 								{view && view[0].heading}
-							</Link>
+							</NavLink>
 						</li>
 						<li className="grid__navLink">
-							<Link to="/portfolio/color">
+							<NavLink
+								to="/portfolio/color"
+								activeStyle={{ background: "#6C63FF", padding: "0.7rem" }}
+							>
 								{view && view[1].heading}
-							</Link>
+							</NavLink>
 						</li>
-						<li className="grid__navLink">
-							<Link to="/portfolio/others">
-								{ view && view[2].heading}
-							</Link>
+						<li
+							className="grid__navLink"
+							
+						>
+							<NavLink to="/portfolio/others" activeStyle={{ background: "#6C63FF", padding: "0.7rem" }}>
+								{view && view[2].heading}
+							</NavLink>
 						</li>
-						
 					</nav>
 				</header>
 			</Fragment>
