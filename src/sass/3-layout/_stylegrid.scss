@@ -1,6 +1,7 @@
 .grid {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .grid__img {
@@ -12,3 +13,5 @@
 .grid + .grid {
     margin-left: 2.5rem;
 }
+
+

@@ -1,4 +1,4 @@
-# Hair Salon
+# Hair Salon Shop
 
-## project is going on. See hrer [live](https://hairshop.netlify.app/)
+## See hrer [live](https://hairshop.netlify.app/)
 

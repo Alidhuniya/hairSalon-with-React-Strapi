@@ -20,3 +20,17 @@
 .grid__navLink + .grid__navLink {
     margin-left: 7rem;
 }
+
+
+@media all and (max-width: 500px) {
+  
+.grid__navLink + .grid__navLink {
+    margin-left: 0rem;
+}
+
+
+    .grid__nav {
+        display: block;
+    }
+}
+
