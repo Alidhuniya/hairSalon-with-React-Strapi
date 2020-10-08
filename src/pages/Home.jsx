@@ -6,6 +6,8 @@ import Homesectionthree from './../components/Homesectionthree';
 import Homesectionfour from './../components/Homesectionfour';
 import Homesectionfive from './../components/Homesectionfive';
 import Homesectionsix from './../components/Homesectionsix';
+
+
 import "./../sass/4-pages/_home.scss";
 
 export default class Home extends Component {

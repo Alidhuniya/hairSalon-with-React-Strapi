@@ -6,7 +6,8 @@ import "./sass/basic-styles-scss/abstract-and-base.scss";
 
 import {
 
-  BrowserRouter as Router
+
+  HashRouter as Router
 } from "react-router-dom";
  
 ReactDom.render(<Router><App /></Router>, document.getElementById("root"));
